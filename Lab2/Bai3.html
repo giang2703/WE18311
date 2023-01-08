@@ -7,13 +7,37 @@
     <title>Bài 3 </title>
 </head>
 <body>
-    <h2>Compiled language(Ngôn ngữ biên dịch)</h2>
-    <p>
-        Là ngôn ngữ lập trình có hiện thực thường là trình biên dịch (bộ dịch tạo ra mã máy từ mã nguồn), chứ không phải trình thông dịch (bộ thực thi mã nguồn từng bước mà không cần dịch trước thời gian chạy).
-    </p>
-    <h2>Interpreted language(Ngôn ngữ thông dịch)</h2>
-    <p>
-        Là một loại ngôn ngữ lập trình mà hầu hết các hiện thực của nó thực thi lệnh trực tiếp và tự do mà không cần biên dịch trước chương trình sang lệnh ngôn ngữ máy.Trình thông dịch (interpreter) thực thi chương trình trực tiếp, dịch từng câu lệnh thành một chuỗi gồm một hoặc nhiều chương trình con, và sau đó sang ngôn ngữ khác (thường là mã máy).
-    </p>
+     <h2>Phân biệt "Compiled language" và "Interpreted language"</h2>
+     <h2> Nhược điểm: </h2>
+     <p>
+        <strong>Với interpreter language:</strong>
+        Chương trình có độ tin cậy thấp do bỏ qua bước kiểm tra loại bỏ một số lỗi, thường có nguy cơ thiếu lỗi.
+        Tốc độ thực thi chậm
+        Mã nguồn dễ dịch ngược
+        Không hỗ trợ đa luồng (multi-thread), giao tác (transaction). Tuy nhiên vẫn có ngoại lệ, chẳng hạn như: PHP, MySQL.
+     </p>
+     <p>
+        <strong>Với compiler language:</strong>
+        Khó xây dựng một compiler có tính chính xác cao để dịch toàn bộ chương trình thành mã máy.
+        Khó thực hiện đa nền tảng.
+     </p>
+     <h2>Ưu điểm:</h2>
+     <p>
+        <strong>Với interpreter language:</strong>
+        Chương trình có độ tin cậy thấp do bỏ qua bước kiểm tra loại bỏ một số lỗi, thường có nguy cơ thiếu lỗi.
+        Tốc độ thực thi chậm
+        Mã nguồn dễ dịch ngược
+        Không hỗ trợ đa luồng (multi-thread), giao tác (transaction). Tuy nhiên vẫn có ngoại lệ, chẳng hạn như: PHP, MySQL.
+        Với Compiler:
+        Khó xây dựng một compiler có tính chính xác cao để dịch toàn bộ chương trình thành mã máy.
+        Khó thực hiện đa nền tảng.
+     </p>
+     <p>
+        <strong>Với compiler language:</strong>
+        Khó bị dịch ngược mã nguồn.
+        Độ tin cậy cao, khả năng bảo mật tốt.
+        Chương trình được thực thi nhanh hơn ngôn ngữ thông dịch.
+        Hỗ trợ đa luồng (multi-thread) và giao tác (transaction).
+     </p>
 </body>
 </html>
